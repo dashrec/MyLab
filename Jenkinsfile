@@ -89,7 +89,7 @@ pipeline{
 
 
 
-/*     // Stage 6 : Deploying the build artifact to Docker
+   // Stage 6 : Deploying the build artifact to Docker
       stage ('Deploy to Docker'){
             steps {
                 echo "Deploying ...."
@@ -112,7 +112,7 @@ pipeline{
         }   */
          
 
-   /*    // Stage7 : Publish the source code to Sonarqube
+     // Stage7 : Publish the source code to Sonarqube
         stage ('Sonarqube Analysis'){
            
             steps {
@@ -123,7 +123,7 @@ pipeline{
                 }
 
             }
-        } */
+        } 
 
         
         
