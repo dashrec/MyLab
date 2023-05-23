@@ -23,13 +23,13 @@ pipeline{
             }
         }
 
-        // Stage2 : Testing
+   /*      // Stage2 : Testing
         stage ('Test'){
             steps {
                 echo ' testing......'
 
             }
-        }
+        } */
 
     // stage3 : publish to Nexus
       stage ('Publish to Nexus'){
@@ -54,7 +54,7 @@ pipeline{
       }
 
 
-      // stage 4 : print some infos
+  /*     // stage 4 : print some infos
         stage ('Print Environment variables'){
             steps {
                 echo "GroupID is '{$GroupId}'"
@@ -62,7 +62,7 @@ pipeline{
                 echo "Version  is '{$Version}'"              
                 echo "Name is '{$Name}'"
             }
-        }
+        } */
 
           // Stage 5 : Deploying the build artifact to Apache Tomcat
         stage ('Deploy to Tomcat'){
@@ -89,7 +89,7 @@ pipeline{
 
 
 
-    // Stage 6 : Deploying the build artifact to Docker
+/*     // Stage 6 : Deploying the build artifact to Docker
       stage ('Deploy to Docker'){
             steps {
                 echo "Deploying ...."
@@ -109,10 +109,10 @@ pipeline{
                     ])
             
             }
-        }  
+        }   */
          
 
-      // Stage7 : Publish the source code to Sonarqube
+   /*    // Stage7 : Publish the source code to Sonarqube
         stage ('Sonarqube Analysis'){
            
             steps {
@@ -123,7 +123,7 @@ pipeline{
                 }
 
             }
-        }
+        } */
 
         
         
