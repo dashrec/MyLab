@@ -19,7 +19,7 @@ pipeline{
         // stage 1. Build
         stage ('Build'){
             steps {
-                sh 'mvn clean install package' // execute shell
+                sh 'mvn clean install package' // execute shell delete all previously compiled Java
             }
         }
 
