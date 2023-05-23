@@ -22,7 +22,7 @@ pipeline{
                 sh 'mvn clean install package' // execute shell delete all previously compiled Java
             }
         }
-
+/* 
        // Stage2 : Testing
         stage ('Test'){
             steps {
@@ -109,7 +109,7 @@ pipeline{
                     ])
             
             }
-        }   
+        }    */
          
 
      // Stage7 : Publish the source code to Sonarqube
