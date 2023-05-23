@@ -11,7 +11,7 @@
 
 	<groupId>com.vinaysdevopslab</groupId>
 	<artifactId>VinayDevOpsLab</artifactId>
-	<version>0.0.4</version>
+	<version>0.0.5</version>
 	<packaging>war</packaging>
 	<name>VinayDevOpsLab</name>
 	<description>Demo project for Spring Boot</description>
