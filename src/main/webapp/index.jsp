@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Successfully deployed!!!</h1>
+    <h1>Successfully deployed full chain ci cd !!!</h1>
 </body>
 </html>
