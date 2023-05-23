@@ -11,7 +11,7 @@
 
 	<groupId>com.vinaysdevopslab</groupId>
 	<artifactId>VinayDevOpsLab</artifactId>
-	<version>0.0.5</version>
+	<version>0.0.6</version>
 	<packaging>war</packaging>
 	<name>VinayDevOpsLab</name>
 	<description>Demo project for Spring Boot</description>
@@ -19,14 +19,8 @@
 		<java.version>17</java.version>
 	</properties>
 
-		<dependency>
-		<groupId>com.vinaysdevopslab</groupId>
-		<artifactId>VinayDevOpsLab</artifactId>
-		<version>0.0.5</version>
-		</dependency>
-
+	
 	<dependencies>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -42,7 +36,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
+  
 
 	
 
